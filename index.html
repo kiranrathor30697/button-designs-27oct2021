@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Button Designs</title>
+        <style>
+            h1{
+                font-family: Arial, Helvetica, sans-serif;
+                margin-left: 30px;
+            }
+            .common{
+                width: 300px;
+                height: 50px;
+                margin-right: 20px;
+                border: none;       
+                margin-top:30px;
+                transition: all 0.1s linear;
+                border-radius: 25px;
+                color:#333;
+            }
+            .btn:hover{
+                color:maroon;
+            }
+            .btn1:hover{
+                box-shadow: 0px 0px 5px 3px rgb(0, 0, 0,0.3);
+                background-image: -webkit-linear-gradient(top,pink 44%,lightblue); 
+            }
+            .btn2:hover{
+                box-shadow: 0px 0px 5px 4px rgb(0, 0, 0,0.3);
+                background-image: -webkit-linear-gradient(bottom,pink 44%,lightblue); 
+            }
+            .btn3:hover{
+                box-shadow: 3px 0px 5px 3px rgb(0, 0, 0,0.4);
+                background-image: -webkit-linear-gradient(left,lightblue,pink); 
+            }
+            .btn4:hover{
+                box-shadow: 3px 3px 5px 3px rgb(0, 0, 0,0.4);
+                background-image: -webkit-linear-gradient(right,pink,lightblue); 
+            }
+            .btn5:hover{
+                box-shadow: 4px 0px 4px 3px rgb(0, 0, 0,0.3);
+                background-image: -webkit-linear-gradient(120deg,pink,lightblue,pink,lightblue); 
+            }
+            .btn6:hover{
+                box-shadow: 2px 2px 3px 2px rgb(0, 0, 0,0.4);
+                background-image: -webkit-linear-gradient(-120deg,pink,lightblue,pink,lightblue); 
+            }
+            .btn7:hover{
+                box-shadow: 0px 0px 5px 4px rgb(0, 0, 0,0.3);
+                background-image: -webkit-radial-gradient(pink ,lightblue ,pink ,lightblue ,pink ,lightblue); 
+            }
+            .btn8:hover{
+                box-shadow: 0px 0px 5px 4px rgb(0, 0, 0,0.3);
+                /* background-image: conic-gradient(red, yellow, green, blue, black); */
+                background-image:conic-gradient(pink, lightblue,pink,lightblue);
+            }
+            .btn9:hover{
+                box-shadow: 2px 0px 3px 3px rgb(0, 0, 0,0.4);
+                background-image: conic-gradient(lightblue 0deg, lightblue 90deg, pink 90deg, pink 180deg, lightblue 180deg, lightblue 270deg, pink 270deg);
+                /* background-image:conic-gradient(pink, #FF69B4 , lightblue ); */
+            }
+            .btn10:hover{
+                box-shadow: 2px 0px 3px 3px rgb(0, 0, 0,0.4);
+                background-image: repeating-conic-gradient(lightblue 10%,pink 20%);
+                
+            }
+            @media only screen and (max-width:500px){
+                .common{
+                    width: 100px;
+                    margin-bottom: 10px;
+                    margin-right: 10px;
+                }    
+            }
+            @media only screen and (min-width:501px)and (max-width:999px){
+                .common{
+                    width: 200px;
+                    margin-bottom: 20px;
+                    margin-right: 20px;
+                 }
+                }
+        </style>
+
+        <script>
+
+        </script>
+    </head>
+    <body>
+        <h1>Gradient Hover Effect</h1>
+        <button type="submit" class="btn1 common btn" value="submit">Button 1</button>
+        <button type="submit" class="btn2 common btn" value="submit">Button 2</button>
+        <button type="submit" class="btn3 common btn" value="submit">Button 3</button>
+        <button type="submit" class="btn4 common btn" value="submit">Button 4</button>
+        <button type="submit" class="btn5 common btn" value="submit">Button 5</button>
+        <button type="submit" class="btn6 common btn" value="submit">Button 6</button>
+        <button type="submit" class="btn7 common btn" value="submit">Button 7</button>
+        <button type="submit" class="btn8 common btn" value="submit">Button 8</button>
+        <button type="submit" class="btn9 common btn" value="submit">Button 9</button>
+        <button type="submit" class="btn10 common btn" value="submit">Button 10</button>
+
+        <script>
+            
+        </script>
+    </body>
+</html>
